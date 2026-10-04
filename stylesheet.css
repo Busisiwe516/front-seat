@@ -1,0 +1,116 @@
+/* Taxi Theme Colours */
+:root {
+  --taxi-yellow: #ffc107;
+  --taxi-black: #121212;
+  --taxi-grey: #f8f9fa;
+}
+
+body {
+  background-color: var(--taxi-grey);
+}
+
+/* Header */
+header {
+  background-color: var(--taxi-black);
+  padding: 15px;
+  border-bottom: 4px solid var(--taxi-yellow);
+}
+header h1 {
+  color: white;
+}
+header .fa-taxi {
+  color: var(--taxi-yellow);
+}
+/* Fix the blue pricing button */
+.btn-primary,
+.btn {
+  background-color: #ffc107;
+  color: #121212;
+  border: 2px solid #121212;
+  font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn:hover {
+  background-color: #121212;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+}
+
+/* The Pricing title */
+.pricing-header h2 {
+  font-weight: bold;
+  color: var(--taxi-black);
+}
+
+/* Taxi Fare Box */
+.card,
+.border {
+  border: 2px solid var(--taxi-black);
+  border-radius: 12px;
+}
+.card-header {
+  background-color: var(--taxi-yellow);
+  font-weight: bold;
+}
+
+/* The table header */
+.container.text-center:first-of-type .row {
+  background-color: var(--taxi-black);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+/* Input */
+.paid {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.paid:focus {
+  border-color: var(--taxi-yellow);
+  outline: none;
+}
+
+/* Change column - make it stand out */
+.change {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Center Taxi Fare box */
+#taxi-fare-box {
+  max-width: 350px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  border: 3px solid #000;
+}
+/* Outer border + inner lines */
+.money-table {
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  overflow: hidden;
+}
+
+.money-table .row {
+  border-bottom: 1px solid #ccc;
+}
+
+.money-table .row:last-child {
+  border-bottom: none;
+}
+
+.money-table .col {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.money-table .col:last-child {
+  border-right: none;
+}
